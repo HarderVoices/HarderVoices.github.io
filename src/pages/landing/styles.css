@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@600&display=swap');
+
+#page-landing {
+    border: 0;
+    padding: 0;
+    width: 100vw;
+}
+
+.octo {
+    height: 85%;
+}
+
+.content-top {
+    width: 100% !important;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-left {
+    width: 50%;
+    background-color: blue;
+    color: white;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+.content-right {
+    display: flex;
+    justify-content: center;
+    background-color: #f6f8fa;
+}
+
+.name {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 120px;
+}
+
+.subname {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 130px;
+}
+
+.work-desk {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 30px;
+}
+
+.redes-socias {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 50%;
+}
+
+.card-redes {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 10rem;
+    text-align: center;
+    align-items: center;
+}
+
+.icon-redes {
+    width: 45px;
+    height: 45px;
+}
