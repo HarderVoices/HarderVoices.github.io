@@ -9,7 +9,7 @@ function PageHeader() {
     return (
         <div className="madara">
             <Link to="/">
-                <img className="minde" src={Madara}></img>
+                <img className="minde" src={Madara}> </img>
             </Link>
             
         </div>

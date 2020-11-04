@@ -9,7 +9,7 @@
 .teacher-item header {
     padding: 3.2rem 2rem;
     display: flex;
-    align-items: center;
+    align-items: center; 
     color: white;
 }
 
@@ -22,11 +22,11 @@
 .teacher-item header div {
     margin-left: 2.4rem;
 }
-
+ 
 .teacher-item header div strong{
-    font: 700 2.4rem Archivo;
-    display: block;
-    color: var(--color-text-title);
+    font: 700 2.4rem Archivo; 
+    display: block; 
+    color: var(--color-text-title); 
 }
 
 .teacher-item header div span{
