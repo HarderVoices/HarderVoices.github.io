@@ -20,12 +20,12 @@ const PageHeader: React.FunctionComponent<PageHeaderProps> = (props) => {
                             <p>Identidade</p> 
                             <p>Digital</p> 
                             <p>Houpa!</p>
-                        </div>
+                        </div> 
                 </Link>
-                <div className="desc-tokens">
+                <div className="desc-tokens"> 
                     <p>
                         Design Tokens
-                        <p>
+                        <p> 
                             Variáveis Semânticas de Estilo
                         </p>
                     </p>
