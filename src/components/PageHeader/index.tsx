@@ -17,8 +17,8 @@ const PageHeader: React.FunctionComponent<PageHeaderProps> = (props) => {
                 <Link className="identidade-houpa" to="/">
                     <img className="logo-houpa" src={LogoImg} alt="houpa"/>
                         <div>
-                            <p>Identidade</p>
-                            <p>Digital</p>
+                            <p>Identidade</p> 
+                            <p>Digital</p> 
                             <p>Houpa!</p>
                         </div>
                 </Link>
