@@ -28,9 +28,9 @@ const PageHeader: React.FunctionComponent<PageHeaderProps> = (props) => {
                         <p> 
                             Variáveis Semânticas de Estilo
                         </p>
-                    </p>
-                </div>
-            </div>
+                    </p> 
+                </div> 
+            </div> 
         </header> 
     );
 }
