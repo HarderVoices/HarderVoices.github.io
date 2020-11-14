@@ -34,6 +34,13 @@
 .name {
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 120px;
+    margin-top: 5rem;
+}
+
+.sobrenome {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 120px;
+    margin-top: -5rem;
 }
 
 .subname {
@@ -44,6 +51,7 @@
 .work-desk {
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 30px;
+    margin-left: 0.5%;
 }
 
 .redes-socias {
@@ -65,4 +73,91 @@
 .icon-redes {
     width: 45px;
     height: 45px;
+}
+
+.content-middle {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.middle-left {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-line-content-1 {
+    width: 50%;
+    height: 450px;
+    padding-left: 30px;
+    padding-top: 5px;
+    padding-right: 60px;
+    background-color: blue;
+    color: white;
+}
+
+.card-line-content {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-img {
+    width: 15rem;
+}
+
+.title-middle {
+    color: #FFA011;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 7rem;
+}
+
+.middle-right {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
+
+.mainMiddle {
+    width: 100%;
+    display: flex;
+}
+
+.dale {
+    flex-direction: row-reverse;
+}
+
+.middle-right {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+}
+
+.right-middle-text {
+    color: #FFA011;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 7rem;
+}
+
+.right-desc-text {
+    color: blue;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 2.5rem;
+}
+
+.umf {
+    width: 35rem;
+}
+
+.tomorrow {
+    margin-top: -60rem;
+}
+
+.teste {
+    text-align: center;
+    font-size: 35rem;
+    background-color: blue;
+    margin-top: 25%;
 }

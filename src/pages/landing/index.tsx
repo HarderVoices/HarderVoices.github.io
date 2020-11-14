@@ -7,7 +7,9 @@ import instagram from '../../assets/images/instagram.png';
 import git from '../../assets/images/github.png';
 import linkdln from '../../assets/images/linkdln.png';
 import codepen from '../../assets/images/codepen.png';
-
+import madara1 from '../../assets/images/madara.jpg';
+import madara2 from '../../assets/images/madara2.png';
+import $ from 'jquery'
 
 function Landing() {
     return (
@@ -16,11 +18,9 @@ function Landing() {
 
                 <div className="content-left">
                     <img src={md} alt=""/>
-                        <div className="">
-                            <p className="name"> Matheus Destefani
-                            </p>
-                        </div>
-                    <p className="work-desk">Web Developer, UI / UX Engineer</p>
+                            <p className="name">Matheus</p>
+                            <p className="sobrenome">Destefani</p>
+                    <p className="work-desk">Web Developer, Data Scientist</p>
                     <div className="redes-socias">
                         <div className="card-redes">
                             <img className="icon-redes" src={git} alt="github"/>
@@ -46,22 +46,45 @@ function Landing() {
                 </div>
 
             </div>
-            <div className="content-middle">
-                <div className="middle-left">
-                    <div className="card-line-content-1">
-                        a
+
+            <div className="mainMiddle">
+                <div className="content-middle">
+                    <div className="middle-left">
+                        <div className="card-line-content-1">
+                            <p className="title-middle">Madara</p>
+                            <p className="desc-middle">Madara Uchiha (うちはマダラ, Uchiha Madara) foi um lendário líder do clã Uchiha. Ele fundou Konohagakure ao lado de seu rival, Hashirama Senju, com a intenção de iniciar uma era de paz.</p>
+                        </div>
+                        <div className="card-line-content">
+                            <img className="project-img" src={madara1} alt=""/>
+                        </div>
                     </div>
-                    <div className="card-line-content">
-                        b   
-                    </div>
+                    <div className="middle-left dale">
+                        <div className="card-line-content-1">
+                            <p className="title-middle">Madara</p>
+                            <p className="desc-middle">Madara Uchiha (うちはマダラ, Uchiha Madara) foi um lendário líder do clã Uchiha. Ele fundou Konohagakure ao lado de seu rival, Hashirama Senju, com a intenção de iniciar uma era de paz.</p>
+                        </div>
+                        <div className="card-line-content">
+                            <img className="project-img" src={madara2} alt=""/>
+                        </div>
+                    </div>     
                 </div>
+
                 <div className="middle-right">
-                    <p>Projetos Finalizados</p>
-                    <p>Aqui estão alguns projetos
-                       pelo qual já participei e 
-                       foram finalizados =)
-                    </p>
+                    <div className="tomorrow">
+                        <p className="right-middle-text">Projetos</p>
+                        <p className="right-middle-text">Finalizados</p>
+                    </div>
+                    <div className="umf">
+                        <p className="right-desc-text">Aqui estão alguns projetos
+                            pelo qual já participei e 
+                            foram finalizados =)
+                        </p>
+                    </div>
                 </div>
+            </div>
+
+            <div className="martinGarrix">  
+                <h1 className="right-middle-text teste">CONTINUA</h1>
             </div>
         </div>
     )
