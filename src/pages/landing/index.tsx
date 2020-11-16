@@ -24,7 +24,7 @@ function Landing() {
                     <div className="redes-socias">
                         <div className="card-redes">
                             <img className="icon-redes" src={git} alt="github"/>
-                            <p className="desc-redes">Github</p>
+                            <p className="desc-redes">Github </p>
                         </div>
                         <div className="card-redes">
                             <img className="icon-redes" src={codepen} alt="github"/>
