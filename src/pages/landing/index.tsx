@@ -77,7 +77,7 @@ function Landing() {
                     <div className="umf">
                         <p className="right-desc-text">Aqui estão alguns projetos
                             pelo qual já participei e 
-                            foram finalizados =)
+                            foram finalizados =) 
                         </p>
                     </div>
                 </div>
