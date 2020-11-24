@@ -1,0 +1,245 @@
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@600&display=swap');
+
+#page-landing {
+    border: 0;
+    padding: 0;
+    width: 100vw;
+}
+
+.octo {
+    height: 85%;
+}
+
+.content-top {
+    width: 100% !important;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-left {
+    width: 50%;
+    background-color: blue;
+    color: white;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+.content-right {
+    display: flex;
+    justify-content: center;
+    background-color: #f6f8fa;
+}
+
+.name {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 120px;
+    margin-top: 5rem;
+}
+
+.sobrenome {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 120px;
+    margin-top: -5rem;
+}
+
+.subname {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 130px;
+}
+
+.work-desk {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 30px;
+    margin-left: 0.5%;
+}
+
+.redes-socias {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 50%;
+}
+
+.card-redes {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 10rem;
+    text-align: center;
+    align-items: center;
+}
+
+.icon-redes {
+    width: 45px;
+    height: 45px;
+}
+
+.content-middle {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.middle-left {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-line-content-1 {
+    width: 50%;
+    height: 450px;
+    padding-left: 30px;
+    padding-top: 5px;
+    padding-right: 60px;
+    background-color: blue;
+    color: white;
+}
+
+.card-line-content {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-img {
+    width: 15rem;
+}
+
+.title-middle {
+    color: #FFA011;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 7rem;
+}
+
+.middle-right {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
+
+.mainMiddle {
+    width: 100%;
+    display: flex;
+}
+
+.dale {
+    flex-direction: row-reverse;
+}
+
+.middle-right {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+}
+
+.right-middle-text {
+    color: #FFA011;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 7rem;
+}
+
+.right-desc-text {
+    color: blue;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 2.5rem;
+}
+
+.umf {
+    width: 35rem;
+}
+
+.tomorrow {
+    margin-top: -60rem;
+}
+
+.teste {
+    text-align: center;
+    font-size: 35rem;
+    background-color: blue;
+    margin-top: 25%;
+}
+</style>
+
+
+<body> 
+<div id="page-landing">
+            <div className="content-top">
+
+                <div className="content-left">
+                    <img src={md} alt=""/>
+                            <p className="name">Matheus</p>
+                            <p className="sobrenome">Destefani</p>
+                    <p className="work-desk">Web Developer, Data Scientist</p>
+                    <div className="redes-socias">
+                        <div className="card-redes">
+                            <img className="icon-redes" src={git} alt="github"/>
+                            <p className="desc-redes">Github </p>
+                        </div>
+                        <div className="card-redes">
+                            <img className="icon-redes" src={codepen} alt="github"/>
+                            <p className="desc-redes">Codepen</p>
+                        </div>
+                        <div className="card-redes">
+                            <img className="icon-redes" src={instagram} alt="github"/>
+                            <p className="desc-redes">instagram</p>
+                        </div>
+                        <div className="card-redes">
+                            <img className="icon-redes" src={linkdln} alt="github"/>
+                            <p className="desc-redes">Linkdln</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="content-right">
+                    <img className="octo" src={octocat} alt=""/>
+                </div>
+
+            </div>
+
+            <div className="mainMiddle">
+                <div className="content-middle">
+                    <div className="middle-left">
+                        <div className="card-line-content-1">
+                            <p className="title-middle">Madara</p>
+                            <p className="desc-middle">Madara Uchiha (うちはマダラ, Uchiha Madara) foi um lendário líder do clã Uchiha. Ele fundou Konohagakure ao lado de seu rival, Hashirama Senju, com a intenção de iniciar uma era de paz.</p>
+                        </div>
+                        <div className="card-line-content">
+                            <img className="project-img" src={madara1} alt=""/>
+                        </div>
+                    </div>
+                    <div className="middle-left dale">
+                        <div className="card-line-content-1">
+                            <p className="title-middle">Madara</p>
+                            <p className="desc-middle">Madara Uchiha (うちはマダラ, Uchiha Madara) foi um lendário líder do clã Uchiha. Ele fundou Konohagakure ao lado de seu rival, Hashirama Senju, com a intenção de iniciar uma era de paz.</p>
+                        </div>
+                        <div className="card-line-content">
+                            <img className="project-img" src={madara2} alt=""/>
+                        </div>
+                    </div>     
+                </div>
+
+                <div className="middle-right">
+                    <div className="tomorrow">
+                        <p className="right-middle-text">Projetos</p>
+                        <p className="right-middle-text">Finalizados</p>
+                    </div>
+                    <div className="umf">
+                        <p className="right-desc-text">Aqui estão alguns projetos
+                            pelo qual já participei e 
+                            foram finalizados =) 
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div className="martinGarrix">  
+                <h1 className="right-middle-text teste">CONTINUA</h1>
+            </div>
+        </div>
+</body>
+ 
