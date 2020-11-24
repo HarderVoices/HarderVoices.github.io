@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/destefani.io/static/css/main.87224801.chunk.css",
+    "main.js": "/destefani.io/static/js/main.be14e466.chunk.js",
+    "main.js.map": "/destefani.io/static/js/main.be14e466.chunk.js.map",
+    "runtime-main.js": "/destefani.io/static/js/runtime-main.f72265e5.js",
+    "runtime-main.js.map": "/destefani.io/static/js/runtime-main.f72265e5.js.map",
+    "static/js/2.9edbd525.chunk.js": "/destefani.io/static/js/2.9edbd525.chunk.js",
+    "static/js/2.9edbd525.chunk.js.map": "/destefani.io/static/js/2.9edbd525.chunk.js.map",
+    "index.html": "/destefani.io/index.html",
+    "precache-manifest.77bae05ccdd0976dfd6240ad0fc9a96a.js": "/destefani.io/precache-manifest.77bae05ccdd0976dfd6240ad0fc9a96a.js",
+    "service-worker.js": "/destefani.io/service-worker.js",
+    "static/css/main.87224801.chunk.css.map": "/destefani.io/static/css/main.87224801.chunk.css.map",
+    "static/js/2.9edbd525.chunk.js.LICENSE.txt": "/destefani.io/static/js/2.9edbd525.chunk.js.LICENSE.txt",
+    "static/media/Octocat.png": "/destefani.io/static/media/Octocat.3d4a9df4.png",
+    "static/media/houpa.png": "/destefani.io/static/media/houpa.86e5528d.png",
+    "static/media/madara.jpg": "/destefani.io/static/media/madara.fcee7ec4.jpg",
+    "static/media/madara2.png": "/destefani.io/static/media/madara2.ae7d9d1e.png",
+    "static/media/whatsapp.svg": "/destefani.io/static/media/whatsapp.45c6e6ec.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f72265e5.js",
+    "static/js/2.9edbd525.chunk.js",
+    "static/css/main.87224801.chunk.css",
+    "static/js/main.be14e466.chunk.js"
+  ]
+}
