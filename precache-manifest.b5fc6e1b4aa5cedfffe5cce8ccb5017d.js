@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "87381875b5ad1581b3815973acb13e56",
+    "revision": "e2cd102852b8c2bb52b0c99d2fd950a7",
     "url": "/HarderVoices.github.io/index.html"
   },
   {
-    "revision": "60ce55f099232c96e41f",
+    "revision": "dd51ad1659f1463cc898",
     "url": "/HarderVoices.github.io/static/css/main.87224801.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/HarderVoices.github.io/static/js/2.9edbd525.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "60ce55f099232c96e41f",
-    "url": "/HarderVoices.github.io/static/js/main.646601d8.chunk.js"
+    "revision": "dd51ad1659f1463cc898",
+    "url": "/HarderVoices.github.io/static/js/main.c6e1b5b6.chunk.js"
   },
   {
     "revision": "568159d2034bd3e46bce",
@@ -40,7 +40,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/HarderVoices.github.io/static/media/madara2.ae7d9d1e.png"
   },
   {
-    "revision": "c2ffa8a6a2f6690a5eba826c625715ab",
-    "url": "/HarderVoices.github.io/static/media/whatsapp.c2ffa8a6.svg"
+    "revision": "45c6e6ecebde5ee441644d41cc132ce4",
+    "url": "/HarderVoices.github.io/static/media/whatsapp.45c6e6ec.svg"
   }
 ]);

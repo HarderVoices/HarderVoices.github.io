@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/HarderVoices.github.io/precache-manifest.4675c256b84d24a2fef20496a8f21c31.js"
+  "/HarderVoices.github.io/precache-manifest.b5fc6e1b4aa5cedfffe5cce8ccb5017d.js"
 );
 
 self.addEventListener('message', (event) => {
