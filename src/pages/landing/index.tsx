@@ -64,7 +64,7 @@ function Landing() {
                             <p className="desc-middle">Madara Uchiha (うちはマダラ, Uchiha Madara) foi um lendário líder do clã Uchiha. Ele fundou Konohagakure ao lado de seu rival, Hashirama Senju, com a intenção de iniciar uma era de paz.</p>
                         </div>
                         <div className="card-line-content">
-                            <img className="project-img" src={madara2} alt=""/>
+                            <img className="project-img" src={madara2} alt=""/> 
                         </div>
                     </div>     
                 </div>
